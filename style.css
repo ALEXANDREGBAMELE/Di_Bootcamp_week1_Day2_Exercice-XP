@@ -5,7 +5,7 @@
     }
    /* container  */
    .container{
-    border: red 1px solid;
+    /* border: red 1px solid; */
     display: flex;
     padding-left: 270px;
     padding-top:20px ;
@@ -18,14 +18,14 @@
 
    /* card article */
    .card{
-    border: red 1px solid;
+    /* border: red 1px solid; */
     width: 150px;
     height: 280px;
     margin: 10px;
    }
 
    .img-card1{
-    border: red 1px solid;
+    /* border: red 1px solid; */
     width: 150px;
     height: 200px;
     background-image: url("img/image1.png");
@@ -34,7 +34,7 @@
    }
 
    .img-card2{
-    border: red 1px solid;
+    /* border: red 1px solid; */
     width: 150px;
     height: 200px;
     background-image: url("img/image2.png");
@@ -43,7 +43,7 @@
    }
 
    .img-card3{
-    border: red 1px solid;
+    /* border: red 1px solid; */
     width: 150px;
     height: 200px;
     background-image: url("img/image3.png");
@@ -52,7 +52,7 @@
    }
 
    .img-card4{
-    border: red 1px solid;
+    /* border: red 1px solid; */
     width: 150px;
     height: 200px;
     background-image: url("img/image4.png");
@@ -61,7 +61,7 @@
    }
    .description-card{
     text-align: center;
-    border: red 1px solid;
+    /* border: red 1px solid; */
     width: 150px;
     height: 80px;
    }
@@ -135,5 +135,14 @@
 
    }
    .throw{
-    font-deco
+    text-decoration: line-through;
+   }
+   .actualy{
+    color: green;
+   }
+   .add{
+    background-color: transparent !important;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
    }
